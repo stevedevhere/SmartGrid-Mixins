@@ -18,6 +18,7 @@ html {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
   -webkit-box-align: stretch;
   align-items: stretch;
   justify-content: space-around;
@@ -29,7 +30,6 @@ html {
   .items .item {
     background-color: #555;
     padding: 18px;
-    box-sizing: border-box;
     border-radius: 10px;
     text-align: center;
     width: 260px;
