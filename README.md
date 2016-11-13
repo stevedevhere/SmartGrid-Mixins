@@ -1,2 +1,6 @@
 # SmartGrid-Mixins
-Smart Grid &amp; breakpoints mixins
+Smart Grid and breakpoints mixins
+
+```
+code: code;
+```

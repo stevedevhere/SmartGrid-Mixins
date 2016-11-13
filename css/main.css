@@ -44,7 +44,9 @@ html {
       font-size: 22px;
       line-height: initial;
       text-transform: uppercase; }
-    .items .item img {
+    .items .item .box {
+      height: 80px;
+      background-color: #232323;
       box-sizing: border-box;
       width: 100%;
       max-width: 120px;
