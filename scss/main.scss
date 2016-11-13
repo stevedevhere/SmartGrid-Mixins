@@ -1,0 +1,62 @@
+// @import "_breakpoints.scss";
+@import "_mixins.scss";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#wrapper {
+  width: 1200px;
+  display: block;
+  margin: auto;
+  @include media-breakpoint-down(xl) {
+    width: 100%;
+  };
+}
+
+.items {
+  box-sizing: border-box;
+  background-color: #ccc;
+  @include flex();
+  @include justify(center);
+
+  .item {
+    background-color: #555;
+    padding: 18px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+
+    @include col(4);
+    @include col-xl(5);
+    @include col-xs(1);
+    h3 {
+      font-size: 22px;
+      line-height: initial;
+      text-transform: uppercase;
+
+    }
+    p.descr {
+
+    }
+    p.name {
+
+    }
+    button {
+
+    }
+    img {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 120px;
+      // display: block;
+      margin: auto;
+      border-radius: 10px;
+      border: solid 3px;
+    }
+  }
+}
