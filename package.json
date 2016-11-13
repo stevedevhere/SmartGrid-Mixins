@@ -1,0 +1,29 @@
+{
+  "name": "mixins",
+  "version": "1.0.0",
+  "description": "Smart Grid and breakpoints mixins",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10",
+    "node-bourbon": "^4.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppermanis/SmartGrid-Mixins.git"
+  },
+  "author": "Steve Juney (uppermains)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uppermanis/SmartGrid-Mixins/issues"
+  },
+  "homepage": "https://github.com/uppermanis/SmartGrid-Mixins#readme"
+}
